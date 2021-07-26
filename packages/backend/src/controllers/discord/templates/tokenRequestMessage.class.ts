@@ -5,7 +5,7 @@ export interface TokenRequestMessageOptions {
 }
 
 export class TokenRequestMessage extends MessageTemplate {
-  readonly template = `:key: **Es wurde ein Zugangstoken angefordert**
-  Zugangstoken lautet: {key}
-  Solltest du den Token nicht angefordert haben - Kein Problem, lösche diese Nachricht einfach!`;
+  readonly template = `:key: **An access token was requested**
+  Access Token: {key}
+  If you have not requested the token - no problem, just delete this message !`;
 }

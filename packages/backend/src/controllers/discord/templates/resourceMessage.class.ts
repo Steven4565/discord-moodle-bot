@@ -7,7 +7,7 @@ export interface ResourceMessageOptions {
 }
 
 export class ResourceMessage extends MessageTemplate {
-  readonly template = `**{course} - Neue Datei**:
+  readonly template = `**{course} - New File**:
   :file_folder: {title}
   :link: {link}`;
 }

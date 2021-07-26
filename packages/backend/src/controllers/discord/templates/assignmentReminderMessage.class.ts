@@ -7,5 +7,5 @@ export interface AssignmentReminderMessageOptions {
 
 export class AssignmentReminderMessage extends MessageTemplate {
   readonly template = `**{course} - Reminder**:
-  :warning: Assignment of title "{title}" is due **today** !`;
+  :warning: Assignment of title "{title}" is due **tomorrow** !`;
 }

@@ -7,7 +7,7 @@ export interface AssignmentMessageOptions {
 }
 
 export class AssignmentMessage extends MessageTemplate {
-  readonly template = `**{course} - Neue Abgabe hinzugefügt!**
-  :information_source: "{title}" ist abzugeben
-  :alarm_clock: bis \`{dueDate}\``;
+  readonly template = `**{course} - New Assignment Added!**
+  :information_source: "{title}" is assigned
+  :alarm_clock: until \`{dueDate}\``;
 }

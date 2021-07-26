@@ -14,7 +14,7 @@ import { IContentfile } from './interfaces/contentfile.interface';
  * @returns {string} - The formatted date string
  */
 function formatMoodleDate(timestamp: number): string {
-    if (!timestamp) return 'keine Zeit gesetzt';
+    if (!timestamp) return 'No Due Date';
 
     const dateOptions = {
         weekday: 'long',

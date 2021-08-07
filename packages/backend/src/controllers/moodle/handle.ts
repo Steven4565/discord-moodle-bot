@@ -22,7 +22,8 @@ function formatMoodleDate(timestamp: number): string {
         month: 'long',
         day: 'numeric',
         hour: 'numeric',
-        minute: 'numeric'
+        minute: 'numeric',
+        tz: 'Asia/Jakarta'
     };
 
     return new Date(timestamp * 1000).toLocaleString(undefined, dateOptions);
